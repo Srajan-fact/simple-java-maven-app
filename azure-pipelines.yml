@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: PrivateAgent
+  name: Default
   demands:
     - agent.name -equals LAPTOP-088D9678
   vmImage: ubuntu-latest
